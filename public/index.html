@@ -18,7 +18,7 @@
         <fieldset>
           <legend>Upload Document</legend>
           <button ngf-select ng-model="picFile" name="file"    
-          accept="'image/*,application/pdf'" ngf-max-size="10MB"
+           ngf-max-size="10MB"
                   ng-click="uploadPic(picFile)" required  >Upload Image</button>  
                   <img ng-show="myForm.file.$valid" ngf-thumbnail="picFile" class="thumb">
         </fieldset>
